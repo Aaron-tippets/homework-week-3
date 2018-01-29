@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+
+<head>
+<html> 
+ 
+    <!--this is how to do comments-->
+  <!--Honor Code: I acknowledge that this code represents my own work: AT Date: 1/23/2018-->
+<meta charset="utf-8" /> 
+   <body>  
+  <meta name="description" content="basic HTML introduction" /> 
+  <meta name="keywords" content="HTML, Basic HTML, Introduction" /> 
+  <meta name="Aaron Tippets" content="Aaron Tippets" /> 
+    <h1> Register for web 2350 </h1>
+       
+        <form action="" method="">
+            <fieldset>
+            <legend> personal data</legend>
+            
+            <lable>first name </lable>
+            <input type="text" placeholder="First name only" required>
+               <br>
+                  <label> Last Name</label>
+                    <input type="text" placeholder="Last name only" required>
+                <br>
+                <label> Date Of Birth <input id="date" type="date" required>
+                </label>
+            <br>
+                <label> Email <input type="email" placeholder=" example@potato.com " required>
+                </label>
+                <br>
+                <lable> URL <input type="url" placeholder="http://banana.com" required> </lable>
+                <br>
+                <lable> TELEPHONE!!! <input type="text" placeholder=" Eg. 801-222-2985" required></lable>       
+                <br>
+                <label> shoe size <input type="number" min="5" max="18" value="9" step=".5" required></label>
+                
+            </fieldset>
+        </form>
+    <form>
+    <fieldset>
+        <legend>Billing Address</legend>
+        <label> Addresss <textarea rows="5"></textarea></label>
+        <br>
+        <label> Country
+        <input list=countries>
+        <datalist id="countries">
+            <option value="USA"></option>
+            <option value="Canada"></option>
+            <option value="Mexico"></option>
+            </datalist>
+        </label>
+    </fieldset>   
+    </form>
+       <form>
+       <fieldset>
+        <legend> Card Details</legend> 
+           <fieldset>
+           <legend>Card Type</legend>
+                
+        <input type ="radio" name ="radio-choice">VISA
+        <input type ="radio" name="radio-choice">Mastercard
+        <input type ="radio" name="radio-choice">AMEX
+           </fieldset>
+           <label>Name <input type="text" placeholder="Name as it appears on card"> </label>
+           <br>
+           <label> Card Number <input type="text"></label>
+           <br>
+           <label> Security code <input type="password"></label>
+           <br>
+           <lable> expiration date <input type="Date" ></lable>         
+        </fieldset>
+        </form>
+       
+        <input type="submit" value="submit Registration"> 
+        <input type="reset" value="Clear Registration">        
+<br>
+<a href="schedule.html"> Schedule </a>
+       <br>
+<a href="fav_movies.html"> fav movies</a>
+</body>
+    </html>
